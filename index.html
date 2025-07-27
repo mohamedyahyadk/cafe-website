@@ -2,33 +2,32 @@
 <html>
   <head>
     <title>Brew & Bean</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
    <header>
-      <nav>
-        <ul>
-          <li><a href="./inedx.html">BREW & BEAN </a></li>
-          <li><a href="./index.html">Home </a></li>
-          <li><a href="./pages/about.html">about </a></li>
-          <li><a href="./pages/menu.html">menu </a></li>
-          <li><a href="./pages/contact.html">contact us </a></li>
-        </ul>
-      </nav>
+        <a class="logo  " href="./inedx.html">BREW & BEAN </a>
+        <div class="nav">
+          <a href="./index.html" class="header_text secondary_text  items">Home </a>
+          <a href="./pages/about.html" class="header_text items secondary_text">about </a>
+          <a href="./pages/menu.html" class="header_text items secondary_text">menu </a>
+          <a href="./pages/contact.html" class="header_text items secondary_text">contact us </a>
+        </div>
     </header>
 
-    <main>
+    <main >
       <section class="hero">
-        <div>
-          <h1>Your daily dose of coffee and comfort</h1>
-          <p>
+        <div class="hero_aside">
+          <h1 class="main_text">Your daily dose of coffee and comfort</h1>
+          <p class="secondary_text info_header">
           From rich espresso to freshly baked pastries, bringing cozy moments to life-one cup at a time.  
           </p>
-          <button>Explore our menu</button>
+          <button  class="btn">Explore our menu</button>
         </div>
-        <img src="./images/cafe/cafe-hero.jpg" alt="Inside Brew and Bean cafe"/>
+        <img class="hero_image" src="./images/cafe/image.png" alt="Inside Brew and Bean cafe"/>
       </section>
-      <section class="featured menu">
-        <h1>Why Us?</h1>
+      <section class="featured_menu">
+        <h1 class="info_header">Why Us?</h1>
         <div class="products">
           <div class="product">
             <img class="product_image" src="images/cafe/bean.jpg" alt="Fresh_Beans" />
@@ -45,17 +44,17 @@
             <h2>Free Wifi</h2>
             <p class="product_text">Our cafes are also designed for comfort,creativity and connection.</p>
           </div>
-          <div class="product">
-          <h2>Diary-Free Options</h2>
+          <!-- <daiv class="product">
             <img class="product_image" src="images/cafe/wifi.jpg" alt="Diary-Free"/>
+            <h2>Diary-Free Options</h2>
             <p class="product_text">Varieties of milk suitable for dietary restrictions.</p>
-        </div>
+        </daiv> -->
       </section>
       <section class="reviews">
         <p>
           The best coffee in town! The croissants are to die for."</p>
         </p>
-        <p><b>-Sarah T.</b></p>
+        <p class="info_header">-Sarah T.</p>
       </section>
       <section class="call_to_action">
         <div>
@@ -64,7 +63,7 @@
             <p>
             From bold espressos to buttery croissants-welcome to brew & bean.</p>
              </p>
-            <button>Explore Our Menu</button>
+            <button class="btn_foot">Explore Our Menu</button>
           </div>
         </div>
       </section>
