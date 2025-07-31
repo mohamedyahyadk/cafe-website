@@ -310,7 +310,7 @@ footer {
   align-items: center;
   padding: 0px 0px 0px 0px;
   border: 0px solid #1f2937;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   /* gap: 60px; */
   background-color: #3882f6;
   flex: 1;
@@ -408,3 +408,149 @@ footer {
   /* gap: 60px; */
   background-color: #3882f6;
 }
+
+/*-----------------------------------menu------------------------------------- */
+/* .hero_menu {
+  height: 100vh;
+  width: 500px;
+  display: flex;
+  background-image: url(../images/menu/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 70px 10px 70px;
+  display: flex;
+  justify-content: center;
+} */
+
+.menu_main {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.Coffees {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #e5e7eb;
+  gap: 10px;
+  padding: 60px 50px 60px 50px;
+}
+.cofe_img {
+  height: 200px;
+  width: 200px;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* flex: 1; */
+}
+.menu_item {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 2px solid #3882f6; */
+  /* border-radius: 4px; */
+  /* flex: 1; */
+  /* padding: 10px 20px 10px 20px; */
+}
+.menu_description {
+  height: 60px;
+  /* width: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* flex: 1; */
+}
+/*  */
+.pastries {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #e5e7eb;
+  gap: 10px;
+  padding: 60px 50px 60px 50px;
+}
+
+.teas {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #e5e7eb;
+  gap: 10px;
+  padding: 60px 50px 60px 50px;
+}
+
+/* -------------------------menu page----------------------- */
+.left_right {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px 10px 50px;
+}
+.left_side {
+  display: flex;
+  padding: 10px 50px 10px 50px;
+}
+.form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #e5e7eb;
+  /* gap: 10px; */
+}
+
+.input_div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+.contact_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f9faf8;
+  padding: 50px 10px 50px 10px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  gap: 35px;
+}
+input {
+  background-color: #e5e7eb;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 100px 10px 100px;
+  border-radius: 5px;
+}
+.form_btn {
+  display: flex;
+  border: none;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  /* font-size: 20px; */
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+}
+/*  */

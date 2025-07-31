@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "extrablack_robot";
+  src: url(../fonts/Roboto_Condensed-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "regular_robot";
+  src: url(../fonts/Roboto_Condensed-Regular.ttf);
+}
+@font-face {
+  font-family: "light_italic_robot";
+  src: url(../fonts/Roboto_Condensed-LightItalic.ttf);
+}
+/* universal */
+* {
+  text-decoration: none;
+  font-family: regular_robot;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+  /* height: 100%;
+  margin: 0; */
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+  background-color: #1f2937;
+  display: flex;
+  padding: 15px 60px 60px 70px;
+  padding: 0px 70px auto 70px;
+  /* gap: 5; */
+  justify-content: space-around;
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px; */
+  color: #f9faf8;
+}
+
+/*  */
+.menu_main {
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+}
+.Coffees {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #3882f6;
+  border-radius: 4px;
+}
